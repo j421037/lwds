@@ -1,0 +1,23 @@
+<!--{template common/header}-->
+<div id="pt" class="bm cl">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em> $topic[title]
+	</div>
+</div>
+<link id="style_css" rel="stylesheet" type="text/css" href="static/topic/t1/style.css">
+<style id="diy_style" type="text/css">body {  background-repeat:repeat !important;}#frameOlP3Bj {  background-color:#FFFFFF !important;background-image:none !important;border:0px none !important;}</style>
+<div id="widgets">
+</div>
+<div class="wp">
+<!--[diy=diypage]--><div id="diypage" class="area"><div id="frameOlP3Bj" class=" frame move-span cl frame-1"><div id="frameOlP3Bj_left" class="column frame-1-c"><div id="frameOlP3Bj_left_temp" class="move-span temp"></div></div></div><div id="frame1" class="frame move-span frame-1 cl"><div class="frame-title title"><span class="titletext">Introduction Page</span></div><div id="frame1_left" class="column frame-1-c"><div id="frame1_left_temp" class="move-span temp"></div><!--{block/110}--></div></div><div id="frameudhOpP" class="frame move-span cl frame-1"><div class="title frame-title"><span class="titletext">Introduction Video</span></div><div id="frameudhOpP_left" class="column frame-1-c"><div id="frameudhOpP_left_temp" class="move-span temp"></div><!--{block/112}--></div></div></div><!--[/diy]-->
+<!--{if $topic['allowcomment']==1}-->
+	{eval
+		$data = &$topic;
+		$common_url = "portal.php?mod=comment&id=$topicid&idtype=topicid";
+		$form_url = "portal.php?mod=portalcp&ac=comment";
+		$commentlist = portaltopicgetcomment($topicid);	}
+	<!--{template portal/portal_comment}-->
+<!--{/if}-->
+</div>
+
+<!--{template common/footer}-->

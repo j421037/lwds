@@ -1,0 +1,11 @@
+.ciis-kefu #floatDivBoxs{width:170px;background:#fff;position:fixed;top:180px;right:0;z-index:999;}
+.ciis-kefu #floatDivBoxs .floatDtt{width:100%;height:45px;line-height:45px; background:#f08326;color:#fff;font-size:18px;text-indent:22px;position:relative;}
+.ciis-kefu #floatDivBoxs .floatDqq{padding:0 14px;}
+.ciis-kefu #floatDivBoxs .floatDqq li{height:45px;line-height:45px;font-size:15px;border-bottom:1px solid #e3e3e3; padding:0 0 0 50px;}
+.ciis-kefu #floatDivBoxs .floatDtxt{font-size:16px;color:#333;padding:5px 14px;}
+.ciis-kefu #floatDivBoxs .floatDtel{padding:0 0 6px 10px;font-size:18px;color:#333;}
+.ciis-kefu #floatDivBoxs .floatDtel img{display:block;}
+.ciis-kefu #floatDivBoxs .floatDbg{width:100%;height:20px;background:url(/source/plugin/ciis_customer/images/online_botbg.jpg) no-repeat;box-shadow:-2px 0 3px rgba(0,0,0,0.25);}
+.ciis-kefu .floatShadow{ background:#fff;box-shadow:-2px 0 3px rgba(0,0,0,0.25);}
+.ciis-kefu #rightArrow{width:50px;height:45px;background:url(/source/plugin/ciis_customer/images/online_arrow.jpg) no-repeat;position:fixed;top:180px;right:170px;z-index:999;}
+.ciis-kefu #rightArrow a{display:block;height:45px;}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ciis_customer.plugin]]></item>
+	<item id="RevisionID"><![CDATA[74265]]></item>
+	<item id="SN"><![CDATA[201711082295TlabSvzU]]></item>
+	<item id="RevisionDateline"><![CDATA[1497427421]]></item>
+	<item id="Data">
+		<item id="/css/style.css"><![CDATA[1f935a16bd5be7ba4cc6c5a2ec5a835a]]></item>
+		<item id="/discuz_plugin_ciis_customer_SC_GBK.xml"><![CDATA[0a2518412aa944b255ff4797f2fd01f0]]></item>
+		<item id="/images/online_arrow.jpg"><![CDATA[fd58eab9d2a5cc4ed3000be5e9e6217a]]></item>
+		<item id="/images/online_botbg.jpg"><![CDATA[2d25539c5a39820877bc2b82685f39a6]]></item>
+		<item id="/images/online_phone.jpg"><![CDATA[d819ae38617c69b7eb8c75ad2b59f815]]></item>
+		<item id="/images/qq.png"><![CDATA[f0e9ace424f0e24adb134428619c58ad]]></item>
+		<item id="/images/wap_ico.jpg"><![CDATA[c9faecbaa0e33b80948939c60bdf5145]]></item>
+		<item id="/js/jquery.js"><![CDATA[397754ba49e9e0cf4e7c190da78dda05]]></item>
+		<item id="/js/zzsc.js"><![CDATA[88f468b9f4bcaa273536bcb68014022b]]></item>
+		<item id="/kefu.class.php"><![CDATA[2b94a586369066d43d87fe456cd330c4]]></item>
+		<item id="/template/kefu.htm"><![CDATA[92776d9c7b8ffbf64621488d9ad7d57f]]></item>
+	</item>
+</root>

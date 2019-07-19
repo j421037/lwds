@@ -1,0 +1,7 @@
+<?PHP exit;?>	1514009935	6admin	1	58.59.177.6	login		39	GET={mod=modcp; fid=39; action=login; }; POST={};
+<?PHP exit;?>	1514014367	6admin	1	58.59.177.6	login	post		GET={mod=modcp; action=login; op=post; do=search; searchsubmit=1; users=小六子; }; POST={};
+<?PHP exit;?>	1514014377	6admin	1	58.59.177.6	thread	post		GET={mod=modcp; action=thread; op=post; do=search; searchsubmit=1; users=小六子; }; POST={};
+<?PHP exit;?>	1514014383	6admin	1	58.59.177.6	thread	post	38	GET={mod=modcp; action=thread; op=post; do=search; fid=38; users=小六子; starttime=2017-10-24; endtime=2017-12-23; searchsubmit=true; }; POST={do=search; fid=38; users=小六子; starttime=2017-10-24; endtime=2017-12-23; searchsubmit=true; };
+<?PHP exit;?>	1514014390	6admin	1	58.59.177.6	thread	post	38	GET={mod=modcp; action=thread; op=post; do=search; fid=38; starttime=2017-10-24; endtime=2017-12-23; searchsubmit=true; }; POST={do=search; fid=38; starttime=2017-10-24; endtime=2017-12-23; searchsubmit=true; };
+<?PHP exit;?>	1514014399	6admin	1	58.59.177.6	thread	post	38	GET={mod=modcp; action=thread; op=post; do=search; fid=38; starttime=2013-10-24; endtime=2017-12-23; searchsubmit=true; }; POST={do=search; fid=38; starttime=2013-10-24; endtime=2017-12-23; searchsubmit=true; };
+<?PHP exit;?>	1514014424	6admin	1	58.59.177.6	thread	post	38	GET={mod=modcp; action=thread; op=post; do=search; fid=38; starttime=2013-10-24; endtime=2017-12-23; keywords=一个时代的缩影; searchsubmit=true; }; POST={do=search; fid=38; starttime=2013-10-24; endtime=2017-12-23; keywords=一个时代的缩影; searchsubmit=true; };

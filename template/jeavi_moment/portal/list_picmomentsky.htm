@@ -1,0 +1,109 @@
+<!--{template common/header}-->
+<!--[name]Moment - 酷图列表[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+<script type="text/javascript" src="$_G['style'][styleimgdir]/js/jquery.hoverdir.js"></script>
+<div id="pt" class="bm cl">
+  <div class="z"> <a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em> <a href="$_G[setting][navs][1][filename]">{lang portal}</a> <em>&rsaquo;</em> 
+    <!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}--> 
+    $cat[catname] </div>
+</div>
+
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css">
+</style>
+<div class="wp"> 
+  <!--[diy=diy1]-->
+  <div id="diy1" class="area"></div>
+  <!--[/diy]--> 
+</div>
+<div id="ct" class="ct2 wp cl">
+  <div class="wonderful_mn"> 
+    <!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}--> 
+    <!--[diy=listcontenttop]-->
+    <div id="listcontenttop" class="area"></div>
+    <!--[/diy]-->
+    <div class="wonderful_bm">
+      <div class="portal_tit cl">
+        <h1>$cat[catname]</h1>
+        <!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="y rss" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}--> 
+        <!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}--> 
+        <a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="y add">投稿</a> 
+        <!--{/if}--> 
+      </div>
+      
+      <!-- 分类 -->
+  <!--{if $cat[subs]}-->
+  <div class="portal_sort cl mb10">
+    <ul>
+      <!--{loop $cat[subs] $value}-->
+      <li><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+      <!--{/loop}-->
+    </ul>
+  </div>
+  <!--{elseif $cat[others]}-->
+  <div class="portal_sort cl mb10">
+    <ul>
+      <!--{loop $cat[others] $value}-->
+      <li><a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+      <!--{/loop}-->
+    </ul>
+  </div>
+  <!--{/if}--> 
+<!-- 文章列表 begin -->
+<script type="text/javascript">
+jQuery(document).ready(function(){jQuery(function() {jQuery('#photo .list').hoverdir();});});
+</script>
+
+      <div class="wonderful" id="photo">
+          <ul>
+            <!--{loop $list['list'] $value}--> 
+            <!--{eval $highlight = article_title_style($value);}--> 
+            <!--{eval $article_url = fetch_article_url($value);}-->
+            <li class="list"><a href="$article_url" target="_blank">
+              <!--{if $value[pic]}--><img src="$value[pic]" alt="$value[title]"/>
+              <!--{else}-->
+              <div class="nopic"><h2>$value[title]</h2></div>
+              <!--{/if}-->
+              <article><h2>$value[title]</h2>
+              <div class="meta"><!--{if $value[catname] && $cat[subs]}--><span class="meta-class">$value[catname]</span><!--{/if}--><span class="meta-date">$value[dateline]</span> 
+              </div>
+              
+              </article>
+              </a>
+            </li>
+            <!--{/loop}-->
+          </ul>
+      </div>
+      <!-- 文章列表 end --> 
+      <!--[diy=listloopbottom]-->
+      <div id="listloopbottom" class="area"></div>
+      <!--[/diy]--> 
+    </div>
+    <!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}--> 
+    <!--{if $list['multi']}-->
+    <div class="pgs mb30 cl">{$list['multi']}</div>
+    <!--{/if}--> 
+    
+    <!--[diy=diycontentbottom]-->
+    <div id="diycontentbottom" class="area"></div>
+    <!--[/diy]--> 
+    
+  </div>
+</div>
+<div class="wp mtn"> 
+  <!--[diy=diy3]-->
+  <div id="diy3" class="area"></div>
+  <!--[/diy]--> 
+</div>
+
+
+
+
+
+
+
+
+
+<!--{template common/footer}-->

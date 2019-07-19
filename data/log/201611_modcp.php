@@ -1,0 +1,14 @@
+<?PHP exit;?>	1479549313	小六子	2	111.58.2.143	login		0	GET={mod=modcp; action=login; }; POST={};
+<?PHP exit;?>	1479549318	小六子	2	111.58.2.143	home		0	GET={mod=modcp; action=home; }; POST={};
+<?PHP exit;?>	1479549322	小六子	2	111.58.2.143	moderate	threads		GET={mod=modcp; action=moderate; op=threads; }; POST={};
+<?PHP exit;?>	1479633397	小六子	2	111.58.2.143	login		0	GET={mod=modcp; action=login; }; POST={};
+<?PHP exit;?>	1479633402	小六子	2	111.58.2.143	home		0	GET={mod=modcp; action=home; }; POST={};
+<?PHP exit;?>	1479633406	小六子	2	111.58.2.143	thread	thread		GET={mod=modcp; action=thread; op=thread; }; POST={};
+<?PHP exit;?>	1479633422	小六子	2	111.58.2.143	forum	editforum		GET={mod=modcp; action=forum; op=editforum; }; POST={};
+<?PHP exit;?>	1479633422	小六子	2	111.58.2.143	forum	editforum	36	GET={mod=modcp; action=forum; op=editforum; fid=36; }; POST={};
+<?PHP exit;?>	1479633425	小六子	2	111.58.2.143	forum	editforum	36	GET={mod=modcp; action=forum; op=editforum; fid=36; }; POST={};
+<?PHP exit;?>	1479633441	小六子	2	111.58.2.143	forum	editforum	36	GET={mod=modcp; action=forum; op=editforum; fid=36; }; POST={};
+<?PHP exit;?>	1479633444	小六子	2	111.58.2.143	forum	recommend	36	GET={mod=modcp; action=forum; op=recommend; show=all; fid=36; }; POST={};
+<?PHP exit;?>	1479633446	小六子	2	111.58.2.143	thread	thread	36	GET={mod=modcp; action=thread; op=thread; fid=36; }; POST={};
+<?PHP exit;?>	1479633447	小六子	2	111.58.2.143	member	edit	36	GET={mod=modcp; action=member; op=edit; fid=36; }; POST={};
+<?PHP exit;?>	1479633448	小六子	2	111.58.2.143	thread	thread	36	GET={mod=modcp; action=thread; op=thread; fid=36; }; POST={};
