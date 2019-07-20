@@ -25,6 +25,11 @@ if(!$metadescription) {
 	$metadescription = $_G['setting']['navs'][1]['navname'];
 }
 
+//echo "<pre>";
+//echo "debug trace: ".__FILE__;
+//var_dump($_G["setting"]["navs"]);
+//die;
+
 if(isset($_G['makehtml'])){
 	helper_makehtml::portal_index();
 }

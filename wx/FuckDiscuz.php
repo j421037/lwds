@@ -7,8 +7,10 @@
  */
 define("DOCUMENT_ROOT",getcwd());
 require_once DOCUMENT_ROOT."/source/function/function_cache.php";
+require_once DOCUMENT_ROOT."/wx/Database/DataBaseManager.php";
 class FuckDiscuz
 {
+    private static $db;
 
     // �Զ�����ģ�建��
     public static function  AutoClearTemplateCache($templatedir = null)
@@ -90,5 +92,13 @@ class FuckDiscuz
         closedir($handle);
 
         return $files;
+    }
+
+    public static function getDBInstance()
+    {
+        if (!self::$db instanceof \wx\Database\DataBaseManager) {
+            self::$db = new \wx\Database\DataBaseManager();
+        }
+        return self::$db;
     }
 }

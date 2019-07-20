@@ -1,8 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/header_common.htm', 1562143330, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/pubsearchform.htm', 1562143330, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/default/common/header_qmenu.htm', 1562143330, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/header_common.htm', 1563608168, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/pubsearchform.htm', 1563608168, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/default/common/header_qmenu.htm', 1563608168, '2', './data/template/2_2_common_header_portal_index.tpl.php', './template/jeavi_moment', 'common/header_portal_index')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -292,14 +292,20 @@ jQuery("#scbar #scbar_txt").focus(function(){
       <?php $mnid = getcurrentnav();?>      <h2><?php if(!isset($_G['setting']['navlogos'][$mnid])) { ?><a href="<?php if($_G['setting']['domain']['app']['default']) { ?>http://<?php echo $_G['setting']['domain']['app']['default'];?>/<?php } else { ?>./<?php } ?>" title="<?php echo $_G['setting']['bbname'];?>"><?php echo $_G['style']['boardlogo'];?></a><?php } else { ?><?php echo $_G['setting']['navlogos'][$mnid];?><?php } ?></h2>
     </div>
      
-    <!-- ���� -->
+    <!--  -->
     <div class="nav"><?php session_start();$_SESSION['num']=0;?>      <ul>
-        <?php if(is_array($_G['setting']['navs'])) foreach($_G['setting']['navs'] as $nav) { ?> 
-        <?php if($nav['available'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1))) { $_SESSION['num']=$_SESSION['num']+1;?><li id="mn_<?php echo $_SESSION['num'];?>" <?php if($mnid == $nav['navid']) { ?>class="a" <?php } ?>
-        <?php if(!empty($subnavs)) { ?>class="b" <?php } ?>    
+        <?php if(is_array($_G['setting']['navs'])) foreach($_G['setting']['navs'] as $nav) { ?>        <?php if($nav['available'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1))) { $_SESSION['num']=$_SESSION['num']+1;?><li id="mn_<?php echo $_SESSION['num'];?>" <?php if($mnid == $nav['navid']) { ?>class="a" <?php } ?>
+        <?php if(!empty($subnavs)) { ?>class="b" <?php } ?>
         <?php echo $nav['nav'];?>></li>
-        <?php } ?> 
         <?php } ?>
+        <?php } ?>
+<!--        <li class="a" id="mn_item_1"><a href="">首页</a></li>-->
+<!--          <li class="a" id="mn_portal"><a href="">首页</a></li>-->
+          <li id="mn_item_0" class="a"><a href="http://gxlwdsslgy.com/portal.php">首页</a></li>
+          <?php if(is_array($_G["config"]["wx"]["navs"])) foreach($_G["config"]["wx"]["navs"] as $nav) { ?>          <?php $_SESSION['num']=$_SESSION['num']+1;?>          <li id="mn_<?php echo $_SESSION['num'];?>" class="a"><a href="http://gxlwdsslgy.com/portal.php?mod=list&amp;catid=<?php echo $nav['catid'];?>"><?php echo $nav["catname"];?></a></li>
+          <?php } ?>
+          <li id="mn_item_0" class="a"><a href="http://gxlwdsslgy.com/ticket.php">门票预定</a></li>
+      </ul>
       </ul>
       <?php if(!empty($_G['setting']['pluginhooks']['global_nav_extra'])) echo $_G['setting']['pluginhooks']['global_nav_extra'];?> 
     </div>
@@ -489,8 +495,8 @@ initSearchmenu('scbar', '<?php echo $searchparams['url'];?>');
 <ul class="sub_menu" id="l_menu" style="display: none;">
 
 <!-- ��������¼ -->
-<li class="user_list app_login"><a href="connect.php?mod=login&amp;op=init&amp;referer=forum.php&amp;statfrom=login"><i class="i_qq"></i>QQ��½</a></li>
-<li class="user_list app_login"><a href="plugin.php?id=wechat:login"><i class="i_wb"></i>΢�ŵ�¼</a></li>
+<li class="user_list app_login"><a href="connect.php?mod=login&amp;op=init&amp;referer=forum.php&amp;statfrom=login"><i class="i_qq"></i>QQ登陆</a></li>
+<li class="user_list app_login"><a href="plugin.php?id=wechat:login"><i class="i_wb"></i>微信登陆</a></li>
 </ul>
 
 

@@ -33,6 +33,7 @@ $navtitle = str_replace('{bbname}', $_G['setting']['bbname'], $_G['setting']['se
 $_G['disabledwidthauto'] = 1;
 
 require_once getcwd()."/wx/FuckDiscuz.php";
+
 FuckDiscuz::AutoClearTemplateCache();
 
 if (!$_COOKIE["wx_language"]) {
@@ -40,6 +41,12 @@ if (!$_COOKIE["wx_language"]) {
 }
 global $MY_LANGUAGE;
 $MY_LANGUAGE = $_G["config"]["wx"]["language"][$_COOKIE["wx_language"]];
+
+$_G["config"]["wx"]["navs"] = DB::fetch_all("select * from pre_portal_category where allowcomment = 1");
+
+//echo "<pre>";
+//var_dump($_G);die;
+
 
 require_once libfile('portal/'.$_GET['mod'], 'module');
 

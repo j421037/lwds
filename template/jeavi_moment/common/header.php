@@ -197,18 +197,27 @@ $(function(){
       <h2><!--{if !isset($_G['setting']['navlogos'][$mnid])}--><a href="{if $_G['setting']['domain']['app']['default']}http://{$_G['setting']['domain']['app']['default']}/{else}./{/if}" title="$_G['setting']['bbname']">{$_G['style']['boardlogo']}</a><!--{else}-->$_G['setting']['navlogos'][$mnid]<!--{/if}--></h2>
     </div>
      
-    <!-- ���� -->
+    <!--  -->
     <div class="nav">
 	{eval session_start();$_SESSION['num']=0;}
       <ul>
-        <!--{loop $_G['setting']['navs'] $nav}--> 
+        <!--{loop $_G['setting']['navs'] $nav}-->
         <!--{if $nav['available'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1))}-->
 		{eval $_SESSION['num']=$_SESSION['num']+1;}
 		<li id="mn_$_SESSION['num']" {if $mnid == $nav[navid]}class="a" {/if}
-        {if !empty($subnavs)}class="b" {/if}    
+        {if !empty($subnavs)}class="b" {/if}
         $nav[nav]></li>
-        <!--{/if}--> 
+        <!--{/if}-->
         <!--{/loop}-->
+<!--        <li class="a" id="mn_item_1"><a href="">首页</a></li>-->
+<!--          <li class="a" id="mn_portal"><a href="">首页</a></li>-->
+          <li id="mn_item_0" class="a"><a href="http://gxlwdsslgy.com/portal.php">首页</a></li>
+          {loop $_G["config"]["wx"]["navs"] $nav}
+          {eval $_SESSION['num']=$_SESSION['num']+1;}
+          <li id="mn_$_SESSION['num']" class="a"><a href="http://gxlwdsslgy.com/portal.php?mod=list&catid=$nav['catid']">$nav["catname"]</a></li>
+          {/loop}
+          <li id="mn_item_0" class="a"><a href="http://gxlwdsslgy.com/ticket.php">门票预定</a></li>
+      </ul>
       </ul>
       <!--{hook/global_nav_extra}--> 
     </div>
@@ -389,8 +398,8 @@ function trans_English(i){
 <ul class="sub_menu" id="l_menu" style="display: none;">
 
 <!-- ��������¼ -->
-<li class="user_list app_login"><a href="connect.php?mod=login&amp;op=init&amp;referer=forum.php&amp;statfrom=login"><i class="i_qq"></i>QQ��½</a></li>
-<li class="user_list app_login"><a href="plugin.php?id=wechat:login"><i class="i_wb"></i>΢�ŵ�¼</a></li>
+<li class="user_list app_login"><a href="connect.php?mod=login&amp;op=init&amp;referer=forum.php&amp;statfrom=login"><i class="i_qq"></i>QQ登陆</a></li>
+<li class="user_list app_login"><a href="plugin.php?id=wechat:login"><i class="i_wb"></i>微信登陆</a></li>
 </ul>
 
 

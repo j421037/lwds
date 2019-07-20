@@ -79,6 +79,7 @@ class portal_category {
 	function remake_inherited_perm($catid) {
 		loadcache('portalcategory');
 		$portalcategory = getglobal('cache/portalcategory');
+		var_dump($portalcategory);die;
 		$catid = intval($catid);
 		$upid = !empty($portalcategory[$catid]) ? $portalcategory[$catid]['upid'] : 0;
 		if($upid) {
