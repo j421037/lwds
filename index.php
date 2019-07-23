@@ -6,7 +6,7 @@
  *
  *      $Id: index.php 34524 2014-05-15 04:42:23Z nemohou $
  */
-header("http://gxlwdsslgy.com/portal.php");
+header("Location: http://gxlwdsslgy.com/portal.php");
 die;
 
 if(!empty($_SERVER['QUERY_STRING']) && is_numeric($_SERVER['QUERY_STRING'])) {
