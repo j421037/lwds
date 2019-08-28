@@ -1,7 +1,7 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('index');
 block_get('17,18,20,19,21,22,24,23,6,4,25,15,29,28,46,42,106,107,108,109,45,11,8,5,30,34,31,33,32,12,13,14');?><?php include template('common/header'); ?><script src="<?php echo $_G['style']['styleimgdir'];?>/js/jeavi.slide.js" type="text/javascript"></script>
 <script src="<?php echo $_G['style']['styleimgdir'];?>/js/jquery.hoverdir.js" type="text/javascript"></script>
-<style id="diy_style" type="text/css">#portal_block_42 {  border-top:#ffffff 10px solid !important;border-bottom:#ffffff 10px solid !important;}#frame779I2j {  border:#ffffff !important;}#portal_block_109 {  border:#ffffff solid !important;margin-bottom:6px !important;}#portal_block_107 {  border:#ffffff !important;margin-top:3px !important;margin-bottom:3px !important;}#framecEnrY9 {  border:#ffffff !important;}#frameJDLSoo {  border:0px none !important;margin-bottom:40px !important;}</style>
+<style id="diy_style" type="text/css">#portal_block_42 {  border-top:#ffffff 10px solid !important;border-bottom:#ffffff 10px solid !important;}#frame779I2j {  border:#ffffff !important;}#portal_block_109 {  border:#ffffff solid !important;margin-bottom:6px !important;}#portal_block_107 {  border:#ffffff !important;margin-top:3px !important;margin-bottom:3px !important;}#framecEnrY9 {  border:#ffffff !important;}</style>
 </div>
 
 

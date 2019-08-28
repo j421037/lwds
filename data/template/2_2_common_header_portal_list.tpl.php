@@ -1,8 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/header_common.htm', 1563608197, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/pubsearchform.htm', 1563608197, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
-|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/default/common/header_qmenu.htm', 1563608197, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/header_common.htm', 1563935647, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/jeavi_moment/common/pubsearchform.htm', 1563935647, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
+|| checktplrefresh('./template/jeavi_moment/common/header.htm', './template/default/common/header_qmenu.htm', 1563935647, '2', './data/template/2_2_common_header_portal_list.tpl.php', './template/jeavi_moment', 'common/header_portal_list')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
