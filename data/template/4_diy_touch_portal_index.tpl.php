@@ -1,82 +1,87 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('index');
 block_get('37,41,39,40,38');?><?php include template('common/header'); ?><header class="header p_header">
-<a class="topMenu fl" href="#mainNv">²Ëµ¥</a>
-<?php if(!$_G['uid'] && !$_G['connectguest']) { ?>
-<a class="topLogin fr" href="member.php?mod=logging&amp;action=login"></a>
-<?php } else { ?>
-<a class="topLogin fr" href="home.php?mod=space&amp;uid=<?php echo $_G['uid'];?>&amp;do=profile&amp;mycenter=1"><?php echo avatar($_G[uid]);?></a>
-<?php } ?>
-<h1 class="logo"><img  src="template/moke8_doormobile/touch/images/img/logo.png"></h1>
+    <a class="topMenu fl" href="#mainNv">èœå•</a>
+    <?php if(!$_G['uid'] && !$_G['connectguest']) { ?>
+    <a class="topLogin fr" href="member.php?mod=logging&amp;action=login"></a>
+    <?php } else { ?>
+    <a class="topLogin fr" href="home.php?mod=space&amp;uid=<?php echo $_G['uid'];?>&amp;do=profile&amp;mycenter=1"><?php echo avatar($_G[uid]);?></a>
+    <?php } ?>
+    <h1 class="logo"><img  src="template/moke8_doormobile/touch/images/img/logo.png"></h1>
 </header>
 <div class="container">
-<script src="template/moke8_doormobile/touch/images/js/TouchSlide.1.1.js" type="text/javascript" type="text/javascript"></script>
-<!--¶ş¼¶µ¼º½-->
-<div class="nvBar">
-<div class="subNv">
-<ul>
-<li><a href="portal.php?mod=list&amp;catid=1">¾°¹Û¾°µã</a></li>
-<li><a href="portal.php?mod=list&amp;catid=4">ÓÎÀÀ¹¥ÂÔ</a></li>
-<li><a href="portal.php?mod=list&amp;catid=5">½ÚÇì»î¶¯</a></li>
-<li><a href="portal.php?mod=list&amp;catid=6">Ãí»á»î¶¯</a></li>
-                <li><a href="portal.php?mod=list&amp;catid=7">ÌØÉ«Ö¸ÄÏ</a></li>
-</ul>
-</div>
-</div>
+    <script src="template/moke8_doormobile/touch/images/js/TouchSlide.1.1.js" type="text/javascript" type="text/javascript"></script>
+    <!--äºŒçº§å¯¼èˆª-->
+    <div class="nvBar">
+        <div class="subNv">
+            <ul>
+                <li><a href="portal.php?mod=list&amp;catid=1">æ™¯è§‚æ™¯ç‚¹</a></li>
+                <li><a href="portal.php?mod=list&amp;catid=4">æ¸¸è§ˆæ”»ç•¥</a></li>
+                <li><a href="portal.php?mod=list&amp;catid=5">èŠ‚åº†æ´»åŠ¨</a></li>
+                <li><a href="portal.php?mod=list&amp;catid=6">åº™ä¼šæ´»åŠ¨</a></li>
+                <li><a href="portal.php?mod=list&amp;catid=7">ç‰¹è‰²æŒ‡å—</a></li>
+            </ul>
+        </div>
+    </div>
 
-<!--½¹µãÍ¼-->
-<div class="xrSlider" id="xrSlider"><?php block_display('37');?></div>
-<script type="text/javascript">
-TouchSlide({ 
-slideCell:"#xrSlider",
-titCell:".sliderNum li",
-mainCell:".sliderCon ul", 
-effect:"leftLoop",
-autoPlay:true //×Ô¶¯²¥·Å
-});
-</script>
+    <!--ç„¦ç‚¹å›¾-->
+    <div class="xrSlider" id="xrSlider">
+        <?php block_display('37');?>    </div>
+    <script type="text/javascript">
+        TouchSlide({
+            slideCell:"#xrSlider",
+            titCell:".sliderNum li",
+            mainCell:".sliderCon ul",
+            effect:"leftLoop",
+            autoPlay:true //è‡ªåŠ¨æ’­æ”¾
+        });
+    </script>
 
-<!--ÈÈÌûÍÆ¼ö-->
-<div class="hotPosts cfix pb"><?php block_display('41');?></div>
+    <!--çƒ­å¸–æ¨è-->
+    <div class="hotPosts cfix pb">
+        <?php block_display('41');?>    </div>
 
-<!--Í¼ÎÄ¾«Ñ¡-->
-<div class="pb">
-<div class="hdTit cfix">
-<h2>Í¼ÎÄ¾«Ñ¡</h2>
-</div>
-<div class="ausPt cfix" id="ausPt"><?php block_display('39');?></div>
-<script type="text/javascript">
-TouchSlide({ 
-slideCell:"#ausPt",
-titCell:".ausPtNum li",
-mainCell:".ausPtCon", 
-effect:"leftLoop"
-});
-</script>
-</div>
+    <!--å›¾æ–‡ç²¾é€‰-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>å›¾æ–‡ç²¾é€‰</h2>
+        </div>
+        <div class="ausPt cfix" id="ausPt">
+            <?php block_display('39');?>        </div>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell:"#ausPt",
+                titCell:".ausPtNum li",
+                mainCell:".ausPtCon",
+                effect:"leftLoop"
+            });
+        </script>
+    </div>
 
 
-<!--×îĞÂÖ÷Ìâ-->
-<div class="pb">
-<div class="hdTit cfix">
-<h2>×îĞÂÖ÷Ìâ</h2>
-<span><a href="forum.php?mod=guide&amp;view=newthread">¸ü¶à&gt;&gt;</a></span>
-</div>
-<div class="newPosts"><?php block_display('40');?></div>
-</div>
+    <!--æœ€æ–°ä¸»é¢˜-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>æœ€æ–°ä¸»é¢˜</h2>
+            <span><a href="forum.php?mod=guide&amp;view=newthread">æ›´å¤š&gt;&gt;</a></span>
+        </div>
+        <div class="newPosts">
+            <?php block_display('40');?>        </div>
+    </div>
 
-<!--°æ¿éµ¼º½-->
-<div class="pb">
-<div class="hdTit cfix">
-<h2>°æ¿éµ¼º½</h2>
-<span><a href="forum.php?forumlist=1&amp;mobile=2">¸ü¶à&gt;&gt;</a></span>
-</div>
-<div class="coluNv cfix"><?php block_display('38');?></div>
-</div>
+    <!--ç‰ˆå—å¯¼èˆª-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>ç‰ˆå—å¯¼èˆª</h2>
+            <span><a href="forum.php?forumlist=1&amp;mobile=2">æ›´å¤š&gt;&gt;</a></span>
+        </div>
+        <div class="coluNv cfix">
+            <?php block_display('38');?>        </div>
+    </div>
 
-<?php if(!$_G['uid'] && !$_G['connectguest']) { ?>
-<div class="pb indexLogin">
-<p>µÇÂ¼Ö®ºó¿ÉÒÔÌåÑé¸ü¶à¹¦ÄÜ£¡</p>
-<a href="member.php?mod=logging&amp;action=login">Á¢¼´µÇÂ¼</a>
-</div>
-<?php } ?>
+    <?php if(!$_G['uid'] && !$_G['connectguest']) { ?>
+    <div class="pb indexLogin">
+        <p>ç™»å½•ä¹‹åå¯ä»¥ä½“éªŒæ›´å¤šåŠŸèƒ½ï¼</p>
+        <a href="member.php?mod=logging&amp;action=login">ç«‹å³ç™»å½•</a>
+    </div>
+    <?php } ?>
 </div><?php include template('common/btfixed'); include template('common/footer'); ?>

@@ -1,3 +1,4 @@
+
 <!--{hook/global_footer_mobile}-->
 <!--{eval $useragent = strtolower($_SERVER['HTTP_USER_AGENT']);$clienturl = ''}-->
 <!--{if strpos($useragent, 'iphone') !== false || strpos($useragent, 'ios') !== false}-->
@@ -11,59 +12,59 @@
 <div id="mask" style="display:none;"></div>
 <!--{if !$nofooter}-->
 <div class="footer">
-	<div>
-		<!--{if !$_G[uid] && !$_G['connectguest']}-->
-		<a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> | <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;" style="color:#D7D7D7;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>
-		<!--{else}-->
-		<a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
-		<!--{/if}-->
-	</div>
     <div>
-		<a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a> |  
-		<a href="javascript:;" style="color:#D7D7D7;">{lang mobile2version}</a> | 
-		<a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a>
-	</div>
-	<p>&copy; www.gxlwdsslgy.com</p>
+        <!--{if !$_G[uid] && !$_G['connectguest']}-->
+        <a href="member.php?mod=logging&action=login" title="{lang login}">{lang login}</a> | <a href="<!--{if $_G['setting']['regstatus']}-->member.php?mod={$_G[setting][regname]}<!--{else}-->javascript:;" style="color:#D7D7D7;<!--{/if}-->" title="{$_G['setting']['reglinkname']}">{lang register}</a>
+        <!--{else}-->
+        <a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1">{$_G['member']['username']}</a> , <a href="member.php?mod=logging&action=logout&formhash={FORMHASH}" title="{lang logout}" class="dialog">{lang logout}</a>
+        <!--{/if}-->
+    </div>
+    <div>
+        <a href="{$_G['setting']['mobile']['simpletypeurl'][0]}">{lang no_simplemobiletype}</a> |
+        <a href="javascript:;" style="color:#D7D7D7;">{lang mobile2version}</a> |
+        <a href="{$_G['setting']['mobile']['nomobileurl']}">{lang nomobiletype}</a>
+    </div>
+    <p>&copy; www.gxlwdsslgy.com</p>
 </div>
 <!--{/if}-->
 
 <nav id="mainNv" class="mainNv">
-	<div class="menuWarp">
-		
-		<div class="userInfo cfix">
-		<!--{if !$_G[uid] && !$_G['connectguest']}-->
-		<a href="member.php?mod=logging&action=login">
-			<div class="avatar fl">
-				<!--{avatar($_G[uid])}-->
-			</div>
-			<h3>µã»÷µÇÂ¼</h3>
-			<p>µÇÂ¼¸ü¶à¾«²Ê¹¦ÄÜ£¡</p>
-		</a>
-		<!--{else}-->
-		<a href="home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1">
-			<div class="avatar fl">
-				<!--{avatar($_G[uid])}-->
-			</div>
-			<h3>{$_G['member']['username']}</h3>
-			<p>{lang usergroup}: $_G[group][grouptitle]</p>
-		</a>
-		<!--{/if}-->
-		</div>
-		
-		<ul>
-			<li class="nv1"><a href="portal.php">Ê×Ò³</a></li>
-			<li class="nv2"><a href="forum.php?forumlist=1&mobile=2">ÂÛÌ³°å¿é</a></li>
-			<li class="nv3"><a href="portal.php?mod=list&catid=1">ĞÂÎÅ×ÊÑ¶</a></li>
-			<li class="nv4"><a href="forum.php?mod=forumdisplay&fid=46&mobile=2">Í¼Æ¬ÆÙ²¼Á÷</a></li>
-			<li class="nv5"><a href="forum.php?mod=guide&view=newthread">µ¼¶Á</a></li>
-			<li class="nv6"><a href="search.php?mod=forum">ËÑË÷</a></li>
-			<!--{if !$_G[uid] && !$_G['connectguest']}-->
-			<li class="nv7"><a href="member.php?mod=logging&action=login">µÇÂ¼</a></li>
-			<!--{else}-->
-			<li class="nv8"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">ÍË³ö</a></li>
-			<!--{/if}-->
-		</ul>
-	</div>
+    <div class="menuWarp">
+
+        <div class="userInfo cfix">
+            <!--{if !$_G[uid] && !$_G['connectguest']}-->
+            <a href="member.php?mod=logging&action=login">
+                <div class="avatar fl">
+                    <!--{avatar($_G[uid])}-->
+                </div>
+                <h3>ç‚¹å‡»ç™»å½•</h3>
+                <p>ç™»å½•æ›´å¤šç²¾å½©åŠŸèƒ½ï¼</p>
+            </a>
+            <!--{else}-->
+            <a href="home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1">
+                <div class="avatar fl">
+                    <!--{avatar($_G[uid])}-->
+                </div>
+                <h3>{$_G['member']['username']}</h3>
+                <p>{lang usergroup}: $_G[group][grouptitle]</p>
+            </a>
+            <!--{/if}-->
+        </div>
+
+        <ul>
+            <li class="nv1"><a href="portal.php">é¦–é¡µ</a></li>
+            <li class="nv2"><a href="forum.php?forumlist=1&mobile=2">è®ºå›æ¿å—</a></li>
+            <li class="nv3"><a href="portal.php?mod=list&catid=1">æ–°é—»èµ„è®¯</a></li>
+            <li class="nv4"><a href="forum.php?mod=forumdisplay&fid=46&mobile=2">å›¾ç‰‡ç€‘å¸ƒæµ</a></li>
+            <li class="nv5"><a href="forum.php?mod=guide&view=newthread">å¯¼è¯»</a></li>
+            <li class="nv6"><a href="search.php?mod=forum">æœç´¢</a></li>
+            <!--{if !$_G[uid] && !$_G['connectguest']}-->
+            <li class="nv7"><a href="member.php?mod=logging&action=login">ç™»å½•</a></li>
+            <!--{else}-->
+            <li class="nv8"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">é€€å‡º</a></li>
+            <!--{/if}-->
+        </ul>
+    </div>
 </nav>
 
 </div>
@@ -72,9 +73,9 @@
 </html>
 <!--{eval updatesession();}-->
 <!--{if defined('IN_MOBILE')}-->
-	<!--{eval output();}-->
+<!--{eval output();}-->
 <!--{else}-->
-	<!--{eval output_preview();}-->
+<!--{eval output_preview();}-->
 <!--{/if}-->
 
 

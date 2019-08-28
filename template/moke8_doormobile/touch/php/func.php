@@ -1,4 +1,5 @@
 <?php
+//echo 111;die;
 function setthreadpic($tid,$num,$type=''){
 	if($type == 'piccount') {
 		return count(DB::fetch_all('SELECT tableid FROM '.DB::table('forum_attachment').' WHERE tid = '.$tid));
@@ -14,6 +15,7 @@ function setthreadpic($tid,$num,$type=''){
 		}
 		break;
 	}
+
 	return $setthreadpicarray;
 }
 

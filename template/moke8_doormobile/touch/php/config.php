@@ -1,9 +1,10 @@
 <?php
+//echo "ffff";die;
 if ( !defined( "IN_DISCUZ" ) )
 {
 		exit( "Access Denied" );
 }
-/////////////  ²ÎÊýÉèÖÃ  //////////
+/////////////  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  //////////
 $ceo_piclistopen = 1;
 
 

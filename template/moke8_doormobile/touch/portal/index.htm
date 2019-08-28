@@ -1,97 +1,98 @@
 <!--{template common/header}-->
 <header class="header p_header">
-	<a class="topMenu fl" href="#mainNv">²Ëµ¥</a>
-	<!--{if !$_G[uid] && !$_G['connectguest']}-->
-	<a class="topLogin fr" href="member.php?mod=logging&action=login"></a>
-	<!--{else}-->
-	<a class="topLogin fr" href="home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1"><!--{avatar($_G[uid])}--></a>
-	<!--{/if}-->
-	<h1 class="logo"><img  src="template/moke8_doormobile/touch/images/img/logo.png"></h1>
+    <a class="topMenu fl" href="#mainNv">èœå•</a>
+    <!--{if !$_G[uid] && !$_G['connectguest']}-->
+    <a class="topLogin fr" href="member.php?mod=logging&action=login"></a>
+    <!--{else}-->
+    <a class="topLogin fr" href="home.php?mod=space&uid=$_G[uid]&do=profile&mycenter=1"><!--{avatar($_G[uid])}--></a>
+    <!--{/if}-->
+    <h1 class="logo"><img  src="template/moke8_doormobile/touch/images/img/logo.png"></h1>
 </header>
 <div class="container">
-	<script src="template/moke8_doormobile/touch/images/js/TouchSlide.1.1.js" type="text/javascript"></script>
-	<!--¶ş¼¶µ¼º½-->
-	<div class="nvBar">
-		<div class="subNv">
-			<ul>
-				<li><a href="portal.php?mod=list&catid=1">¾°¹Û¾°µã</a></li>
-				<li><a href="portal.php?mod=list&catid=4">ÓÎÀÀ¹¥ÂÔ</a></li>
-				<li><a href="portal.php?mod=list&catid=5">½ÚÇì»î¶¯</a></li>
-				<li><a href="portal.php?mod=list&catid=6">Ãí»á»î¶¯</a></li>
-                <li><a href="portal.php?mod=list&catid=7">ÌØÉ«Ö¸ÄÏ</a></li>
-			</ul>
-		</div>
-	</div>
+    <script src="template/moke8_doormobile/touch/images/js/TouchSlide.1.1.js" type="text/javascript"></script>
+    <!--äºŒçº§å¯¼èˆª-->
+    <div class="nvBar">
+        <div class="subNv">
+            <ul>
+                <li><a href="portal.php?mod=list&catid=1">æ™¯è§‚æ™¯ç‚¹</a></li>
+                <li><a href="portal.php?mod=list&catid=4">æ¸¸è§ˆæ”»ç•¥</a></li>
+                <li><a href="portal.php?mod=list&catid=5">èŠ‚åº†æ´»åŠ¨</a></li>
+                <li><a href="portal.php?mod=list&catid=6">åº™ä¼šæ´»åŠ¨</a></li>
+                <li><a href="portal.php?mod=list&catid=7">ç‰¹è‰²æŒ‡å—</a></li>
+            </ul>
+        </div>
+    </div>
 
-	<!--½¹µãÍ¼-->
-	<div class="xrSlider" id="xrSlider">
-		<!--{block/37}-->
-	</div>
-	<script type="text/javascript">
-	TouchSlide({ 
-		slideCell:"#xrSlider",
-		titCell:".sliderNum li",
-		mainCell:".sliderCon ul", 
-		effect:"leftLoop",
-		autoPlay:true //×Ô¶¯²¥·Å
-	});
-	</script>
+    <!--ç„¦ç‚¹å›¾-->
+    <div class="xrSlider" id="xrSlider">
+        <!--{block/37}-->
+    </div>
+    <script type="text/javascript">
+        TouchSlide({
+            slideCell:"#xrSlider",
+            titCell:".sliderNum li",
+            mainCell:".sliderCon ul",
+            effect:"leftLoop",
+            autoPlay:true //è‡ªåŠ¨æ’­æ”¾
+        });
+    </script>
 
-	<!--ÈÈÌûÍÆ¼ö-->
-	<div class="hotPosts cfix pb">
-		<!--{block/41}-->
-	</div>
+    <!--çƒ­å¸–æ¨è-->
+    <div class="hotPosts cfix pb">
+        <!--{block/41}-->
+    </div>
 
-	<!--Í¼ÎÄ¾«Ñ¡-->
-	<div class="pb">
-		<div class="hdTit cfix">
-			<h2>Í¼ÎÄ¾«Ñ¡</h2>
-		</div>
-		<div class="ausPt cfix" id="ausPt">
-			<!--{block/39}-->
-		</div>
-		<script type="text/javascript">
-		TouchSlide({ 
-			slideCell:"#ausPt",
-			titCell:".ausPtNum li",
-			mainCell:".ausPtCon", 
-			effect:"leftLoop"
-		});
-		</script>
-	</div>
+    <!--å›¾æ–‡ç²¾é€‰-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>å›¾æ–‡ç²¾é€‰</h2>
+        </div>
+        <div class="ausPt cfix" id="ausPt">
+            <!--{block/39}-->
+        </div>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell:"#ausPt",
+                titCell:".ausPtNum li",
+                mainCell:".ausPtCon",
+                effect:"leftLoop"
+            });
+        </script>
+    </div>
 
 
-	<!--×îĞÂÖ÷Ìâ-->
-	<div class="pb">
-		<div class="hdTit cfix">
-			<h2>×îĞÂÖ÷Ìâ</h2>
-			<span><a href="forum.php?mod=guide&view=newthread">¸ü¶à&gt;&gt;</a></span>
-		</div>
-		<div class="newPosts">
-			<!--{block/40}-->
-		</div>
-	</div>
+    <!--æœ€æ–°ä¸»é¢˜-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>æœ€æ–°ä¸»é¢˜</h2>
+            <span><a href="forum.php?mod=guide&view=newthread">æ›´å¤š&gt;&gt;</a></span>
+        </div>
+        <div class="newPosts">
+            <!--{block/40}-->
+        </div>
+    </div>
 
-	<!--°æ¿éµ¼º½-->
-	<div class="pb">
-		<div class="hdTit cfix">
-			<h2>°æ¿éµ¼º½</h2>
-			<span><a href="forum.php?forumlist=1&mobile=2">¸ü¶à&gt;&gt;</a></span>
-		</div>
-		<div class="coluNv cfix">
-			<!--{block/38}-->
-		</div>
-	</div>
+    <!--ç‰ˆå—å¯¼èˆª-->
+    <div class="pb">
+        <div class="hdTit cfix">
+            <h2>ç‰ˆå—å¯¼èˆª</h2>
+            <span><a href="forum.php?forumlist=1&mobile=2">æ›´å¤š&gt;&gt;</a></span>
+        </div>
+        <div class="coluNv cfix">
+            <!--{block/38}-->
+        </div>
+    </div>
 
-	<!--{if !$_G[uid] && !$_G['connectguest']}-->
-	<div class="pb indexLogin">
-		<p>µÇÂ¼Ö®ºó¿ÉÒÔÌåÑé¸ü¶à¹¦ÄÜ£¡</p>
-		<a href="member.php?mod=logging&action=login">Á¢¼´µÇÂ¼</a>
-	</div>
-	<!--{/if}-->
+    <!--{if !$_G[uid] && !$_G['connectguest']}-->
+    <div class="pb indexLogin">
+        <p>ç™»å½•ä¹‹åå¯ä»¥ä½“éªŒæ›´å¤šåŠŸèƒ½ï¼</p>
+        <a href="member.php?mod=logging&action=login">ç«‹å³ç™»å½•</a>
+    </div>
+    <!--{/if}-->
 </div>
 
 <!--{template common/btfixed}-->
 <!--{template common/footer}-->
+
 
 

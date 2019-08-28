@@ -2,7 +2,195 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a55aad6-595a-425e-b593-8ce5657f2d56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_global.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_ucenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_ucenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/block/b6/b66d6b1991b480b4d7126f960137cfb7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/block/b6/b66d6b1991b480b4d7126f960137cfb7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/block/fe/feea350e66e0b526eae8028eac66561e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/block/fe/feea350e66e0b526eae8028eac66561e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/01_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/01_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/04_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/04_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/05_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/05_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/06_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/06_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/07_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/07_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/08_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/08_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/09_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/09_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/12_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/12_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/13_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/13_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/14_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/14_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/15_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/15_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/16_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/16_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/17_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/17_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/18_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/18_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/19_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/19_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/20_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/20_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/21_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/21_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/22_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/22_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/24_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/24_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/25_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/25_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/26_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/26_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/27_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/27_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/28_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/28_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/36_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/36_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/37_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/37_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/38_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/38_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/48_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/48_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/49_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/49_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/50_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/50_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/66_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/66_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/67_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/67_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/image/000/00/00/68_500_500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/image/000/00/00/68_500_500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153307gy3dxlvivz8aqvmv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153307gy3dxlvivz8aqvmv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153307gy3dxlvivz8aqvmv.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153307gy3dxlvivz8aqvmv.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153400a596jwl3945cgv34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153400a596jwl3945cgv34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153400a596jwl3945cgv34.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153400a596jwl3945cgv34.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153755b75agnp0tzphq7g7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153755b75agnp0tzphq7g7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/153755b75agnp0tzphq7g7.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/153755b75agnp0tzphq7g7.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154818ktrzzr0tig81vuc5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154818ktrzzr0tig81vuc5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154818ktrzzr0tig81vuc5.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154818ktrzzr0tig81vuc5.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833bv3glx7uzv6tg3qs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833bv3glx7uzv6tg3qs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833bv3glx7uzv6tg3qs.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833bv3glx7uzv6tg3qs.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833pxeqxtxqnszxhesx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833pxeqxtxqnszxhesx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833pxeqxtxqnszxhesx.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833pxeqxtxqnszxhesx.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833zrsf6rxn9birjins.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833zrsf6rxn9birjins.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833zrsf6rxn9birjins.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/154833zrsf6rxn9birjins.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238djri2cda2w6rs2sw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238djri2cda2w6rs2sw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238djri2cda2w6rs2sw.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238djri2cda2w6rs2sw.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238fkt0v60009ddk9kq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238fkt0v60009ddk9kq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238fkt0v60009ddk9kq.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238fkt0v60009ddk9kq.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238ma48z4u97aro441f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238ma48z4u97aro441f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238ma48z4u97aro441f.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155238ma48z4u97aro441f.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155243fi1nbcpni1cmttts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155243fi1nbcpni1cmttts.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/155243fi1nbcpni1cmttts.jpg.thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/155243fi1nbcpni1cmttts.jpg.thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/160850wnxp4r29rrwrlftc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/160850wnxp4r29rrwrlftc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/attachment/portal/201908/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/attachment/portal/201908/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cache/common_postimg.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/cache/common_postimg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diy/template/jeavi_moment/portal/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/data/diy/template/jeavi_moment/portal/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diy/template/jeavi_moment/portal/index.htm.bak" beforeDir="false" afterPath="$PROJECT_DIR$/data/diy/template/jeavi_moment/portal/index.htm.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/201908_cplog.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/201908_cplog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/201908_errorlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/201908_errorlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_common_footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_common_header_portal_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_common_header_userstatus.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_member_login_simple.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_mobile_common_footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_mobile_common_header.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_1_mobile_common_showmessage.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_diy_mobile_forum_discuz.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/1_diy_portal_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_footer_ajax.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_ajax.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_diy.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_diynav.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_attachment.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_forumdisplay.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_guide.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_misc.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_post.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_forum_viewthread.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_magic.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_medal.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_space.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_spacecp.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_home_task.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_member_logging.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_member_lostpasswd.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_member_register.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_misc_invite.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_misc_mobile.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_plugin_wechat.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_list.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_portalcp.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_topic.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_header_portal_view.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_invite.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_misc_imgcropper.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_common_showmessage.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_darkroom.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_discuzcode.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_forumdisplay_fastpost.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_guide.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_post_forumselect.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_viewthread_printable.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_forum_viewthread_profile_node.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_click.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_header.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_list.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_medal.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_menu.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_home_space_profile.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_member_login.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_member_login_simple.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_member_register.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_mobile_common_preview.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_mobile_forum_discuz.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_portal_portalcp_article.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_portal_portalcp_block.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_portal_portalcp_block_itemfields.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_portal_portalcp_login.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_portal_portalcp_portalblock.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_2_search_portal.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_ciis_customer_kefu.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_forum_discuz.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_forum_forumdisplay.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_forum_viewthread.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_home_space_friend.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_home_space_home.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_list.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_list_pictextmomentsky.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_portal_topic_content_1.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_portal_topic_content_2.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_10.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_4.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_5.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_7.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_8.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_9.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_diy_portal_view_nxxsky.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/2_wechat_module.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_common_footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_common_header_home_space.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_common_header_portal_topic.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_common_header_userstatus.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_home_space_menu.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_member_login_simple.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_portal_portal_diyhelp.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_common_btfixed.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_common_footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_common_header.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_common_showmessage.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_forum_discuzcode.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_forum_forumdisplay_imglist.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_forum_guide.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_forum_post_forumselect.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_home_space_profile.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_4_touch_member_login.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_home_space_home.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_portal_portal_topic_content.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_forum_discuz.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_forum_forumdisplay.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_forum_viewthread.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_portal_index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_portal_list.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/4_diy_touch_portal_view.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/template/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_ajax/var_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu_ajax/var_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/language/lang_admincp_cloud.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/language/lang_admincp_cloud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.gbk.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.gbk.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/php/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/php/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/php/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/php/func.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.gbk.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx/fuck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wx/fuck.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,41 +204,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/class/class_core.php">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.gbk.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4508">
-              <caret line="201" column="28" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
+            <state relative-caret-position="736">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <folding>
+                <element signature="e#1836#1840#0" expanded="true" />
+                <element signature="e#1840#1844#0" expanded="true" />
+                <element signature="e#2067#2071#0" expanded="true" />
+                <element signature="e#2071#2075#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_database.php">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2162">
-              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+            <state relative-caret-position="551">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <folding>
+                <element signature="e#2179#2183#0" expanded="true" />
+                <element signature="e#2183#2187#0" expanded="true" />
+                <element signature="e#2459#2463#0" expanded="true" />
+                <element signature="e#2463#2467#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx/Database/DataBaseManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx/index.php">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.gbk.htm">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx/Run.php">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="276">
+              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.gbk.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="830">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#1949#1955#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/php/func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -59,63 +288,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx/FuckDiscuz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2277">
-              <caret line="99" column="59" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+            <state relative-caret-position="325">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/module/portal/portal_index.php">
+        <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="30" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/jeavi_moment/common/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9200">
-              <caret line="400" column="139" selection-start-line="400" selection-start-column="139" selection-end-line="400" selection-end-column="139" />
-              <folding>
-                <element signature="n#div#5;n#body#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="546" column="21" selection-start-line="546" selection-start-column="21" selection-end-line="546" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="46">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="HTML4 File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>block_get_batch</find>
-      <find>ciis-kefu</find>
-      <find>tools_updatecache_tips</find>
-      <find>当站点进行了数据恢复</find>
-      <find>frameuinfo</find>
       <find>menu_portal</find>
       <find>bindingValues</find>
       <find>settings</find>
@@ -141,6 +340,11 @@
       <find>portal_category</find>
       <find>global_nav_extra</find>
       <find>i_qq</find>
+      <find>mysqli</find>
+      <find>indexLogin</find>
+      <find>nvBar</find>
+      <find>mm-panels</find>
+      <find>mainNv</find>
     </findStrings>
     <replaceStrings>
       <replace>gxlwdsslgy</replace>
@@ -152,6 +356,8 @@
       <dir>C:\phpStudy\PHPTutorial\WWW\lwds</dir>
       <dir>D:\GitHub\lwds</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/template/moke8_doormobile</dir>
+      <dir>$PROJECT_DIR$/template/moke8_doormobile/touch</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -160,16 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/config_global_default.php" />
-        <option value="$PROJECT_DIR$/source/function/function_core.php" />
-        <option value="$PROJECT_DIR$/wx/WxTranslate.php" />
-        <option value="$PROJECT_DIR$/source/class/class_core.php" />
-        <option value="$PROJECT_DIR$/source/class/discuz/discuz_application.php" />
-        <option value="$PROJECT_DIR$/source/function/function_cache.php" />
-        <option value="$PROJECT_DIR$/template/jeavi_moment/portal/comment.php" />
-        <option value="$PROJECT_DIR$/data/diy/template/jeavi_moment/portal/index.htm" />
-        <option value="D:/nginx/conf/nginx.conf" />
-        <option value="$PROJECT_DIR$/wx/pdo.php" />
         <option value="$PROJECT_DIR$/source/admincp/admincp_tools.php" />
         <option value="$PROJECT_DIR$/source/admincp/admincp_main.php" />
         <option value="$PROJECT_DIR$/wx/Database/Connectors/MysqlConnector.php" />
@@ -183,7 +379,6 @@
         <option value="$PROJECT_DIR$/wx/Database/Connection.php" />
         <option value="$PROJECT_DIR$/wx/bd.php" />
         <option value="$PROJECT_DIR$/wx/Util/Curl.php" />
-        <option value="$PROJECT_DIR$/config/config_ucenter.php" />
         <option value="$PROJECT_DIR$/uc_server/model/base.php" />
         <option value="$PROJECT_DIR$/wx/Run.php" />
         <option value="$PROJECT_DIR$/source/admincp/discuzfiles.md5" />
@@ -191,7 +386,6 @@
         <option value="$PROJECT_DIR$/uc_server/admin.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/source/class/discuz/discuz_admincp.php" />
-        <option value="$PROJECT_DIR$/config/config_global.php" />
         <option value="$PROJECT_DIR$/../../soft/php72/etc/php.ini" />
         <option value="$PROJECT_DIR$/bak/class/config.php" />
         <option value="$PROJECT_DIR$/template/jeavi_moment/portal/index.php" />
@@ -202,22 +396,33 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/source/class/table/table_common_block_item.php" />
         <option value="$PROJECT_DIR$/fuck.php" />
-        <option value="$PROJECT_DIR$/../../soft/nginx/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/source/class/class_portalcategory.php" />
         <option value="$PROJECT_DIR$/source/module/portal/portal_index.php" />
         <option value="$PROJECT_DIR$/wx/FuckDiscuz.php" />
-        <option value="$PROJECT_DIR$/wx/Database/DataBaseManager.php" />
         <option value="$PROJECT_DIR$/portal.php" />
         <option value="$PROJECT_DIR$/template/jeavi_moment/common/header.php" />
         <option value="$PROJECT_DIR$/ticket.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/wx/Database/DataBaseManager.php" />
+        <option value="$PROJECT_DIR$/config/config_global.php" />
+        <option value="$PROJECT_DIR$/config/config_ucenter.php" />
+        <option value="$PROJECT_DIR$/../../soft/nginx/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/../../soft/nginx/vhost/lwds.conf" />
+        <option value="$PROJECT_DIR$/../../soft/php73/etc/php.ini" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.html" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.gbk.htm" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.htm" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/php/config.php" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.html" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/php/func.php" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm" />
+        <option value="$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1792" />
+    <option name="width" value="1861" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -235,6 +440,29 @@
             <path>
               <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
               <item name="lwds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwds" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwds" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwds" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwds" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
@@ -281,6 +509,14 @@
               <item name="moke8_doormobile" type="462c0819:PsiDirectoryNode" />
               <item name="touch" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwds" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="moke8_doormobile" type="462c0819:PsiDirectoryNode" />
+              <item name="touch" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lwds" type="b2602c69:ProjectViewProjectNode" />
@@ -329,6 +565,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -379,17 +616,18 @@
       <workItem from="1562141812376" duration="2588000" />
       <workItem from="1563591253613" duration="12615000" />
       <workItem from="1563755790504" duration="7207000" />
+      <workItem from="1566994425199" duration="6148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129150000" />
+    <option name="totallyTimeSpent" value="135298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="23" width="1792" height="977" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.21828571" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.20553781" />
       <window_info id="Structure" order="1" sideWeight="0.5016949" side_tool="true" weight="0.20127796" />
       <window_info id="Favorites" order="2" sideWeight="0.5016949" side_tool="true" weight="0.20127796" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,146 +652,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/backup_lwds_db/190701_Q8Ga6186-1.sql" />
-    <entry file="file://$PROJECT_DIR$/data/backup_lwds_db/190701_Q8Ga6186-12.sql" />
-    <entry file="file://$PROJECT_DIR$/config/config_global_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uc_server/model/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#4#10#0" expanded="true" />
-            <element signature="e#15#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lwds.gbk/portal.php" />
-    <entry file="file://$PROJECT_DIR$/source/admincp/discuzfiles.md5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_ucenter_default.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_ucenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uc_server/data/config.inc.php" />
-    <entry file="file://$PROJECT_DIR$/../../soft/php72/etc/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="191" column="19" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/class/config.php" />
-    <entry file="file://$PROJECT_DIR$/uc_server/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/discuz/discuz_admincp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx/fuck.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/jeavi_moment/portal/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5187">
-          <caret line="247" selection-start-line="247" selection-end-line="247" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/plugin/ciis_customer/kefu.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/jeavi_moment/common/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/table/table_common_block.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/class/table/table_common_block_item_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/function/function_block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5612">
-          <caret line="249" column="54" selection-start-line="249" selection-start-column="54" selection-end-line="249" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/plugin/ciis_customer/template/kefu.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#652#658#0" expanded="true" />
-            <element signature="e#658#664#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#4;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx/language.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -571,21 +669,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../soft/nginx/vhost/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../soft/nginx/vhost/app.conf" />
     <entry file="file://$PROJECT_DIR$/fuck.php" />
-    <entry file="file://$PROJECT_DIR$/../../soft/nginx/conf/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/class/table/table_portal_category_permission.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,22 +708,10 @@
     <entry file="file://$PROJECT_DIR$/template/jeavi_moment/portal/comment.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/function/function_core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="820" column="9" selection-start-line="820" selection-start-column="9" selection-end-line="820" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx/Database/Connectors/ConnectionFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#41#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx/Database/DataBaseManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -677,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx/FuckDiscuz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2277">
-          <caret line="99" column="59" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -698,19 +757,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9200">
           <caret line="400" column="139" selection-start-line="400" selection-start-column="139" selection-end-line="400" selection-end-column="139" />
-          <folding>
-            <element signature="n#div#5;n#body#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
+        <state relative-caret-position="12558">
           <caret line="546" column="21" selection-start-line="546" selection-start-column="21" selection-end-line="546" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,6 +771,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/ConnectionInterface.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/Connectors/MySqlConnector.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/Connectors/ConnectorInterface.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/Connectors/ConnectionFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/Connectors/Connector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/Database/DataBaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../soft/nginx/vhost/lwds.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../soft/nginx/conf/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/db/db_driver_mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/class/db/db_driver_mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_ucenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../soft/php73/etc/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="1175" column="67" selection-start-line="1175" selection-start-column="67" selection-end-line="1175" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.bak.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/view.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sysdata/cache_mobile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx/FuckDiscuz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/discuz_style_moke8_doormobile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="e#2179#2183#0" expanded="true" />
+            <element signature="e#2183#2187#0" expanded="true" />
+            <element signature="e#2459#2463#0" expanded="true" />
+            <element signature="e#2463#2467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.gbk.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/btfixed.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/php/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/portal/index.gbk.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="e#1836#1840#0" expanded="true" />
+            <element signature="e#1840#1844#0" expanded="true" />
+            <element signature="e#2067#2071#0" expanded="true" />
+            <element signature="e#2071#2075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.gbk.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/moke8_doormobile/touch/common/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#1949#1955#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

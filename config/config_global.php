@@ -11,7 +11,7 @@ $_config["wx"]["debug"] = true;
 $_config["wx"]["domain"] = $_config["wx"]["debug"] ? "http://gxlwdsslgy.com" : "";
 $_config["wx"]["language"] = require_once getcwd()."/wx/language.php";
 // ----------------------------  CONFIG DB  ----------------------------- //
-$_config['db']['1']['dbhost'] = 'localhost';
+$_config['db']['1']['dbhost'] = '47.104.227.162';
 $_config['db']['1']['dbuser'] = 'admin';
 $_config['db']['1']['dbpw'] = 'sb123.++';
 $_config['db']['1']['dbcharset'] = 'utf8';
