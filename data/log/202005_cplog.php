@@ -1,0 +1,12 @@
+<?PHP exit;?>	1590650462	6admin	1	14.204.158.184		GET={}; POST={};
+<?PHP exit;?>	1590650462	6admin	1	14.204.158.184	index	GET={}; POST={};
+<?PHP exit;?>	1590650463	6admin	1	14.204.158.184	checktools	GET={operation=filecheck; homecheck=yes; inajax=1; ajaxtarget=filecheck_div; }; POST={};
+<?PHP exit;?>	1590650464	6admin	1	14.204.158.184	setting	GET={operation=basic; }; POST={};
+<?PHP exit;?>	1590650465	6admin	1	14.204.158.184	setting	GET={operation=functions; }; POST={};
+<?PHP exit;?>	1590650468	6admin	1	14.204.158.184	setting	GET={operation=access; }; POST={};
+<?PHP exit;?>	1590650469	6admin	1	14.204.158.184	setting	GET={operation=basic; }; POST={};
+<?PHP exit;?>	1590650471	6admin	1	14.204.158.184	setting	GET={operation=seo; }; POST={};
+<?PHP exit;?>	1590650477	6admin	1	14.204.158.184	setting	GET={operation=access; }; POST={};
+<?PHP exit;?>	1590650477	6admin	1	14.204.158.184	setting	GET={operation=basic; }; POST={};
+<?PHP exit;?>	1590650487	6admin	1	14.204.158.184	setting	GET={edit=yes; operation=basic; settingnew={bbname=迪威国际_13169231111; sitename=迪威国际_13169231111; siteurl=http://gxlwdsslgy.com/; adminemail=66536084@qq.com; site_qq=66536084; icp=桂ICP备18009783号-1; closedreason=正在建设中; closedallowactivation=1; }; settingsubmit=提交; }; POST={operation=basic; settingnew={bbname=迪威国际_13169231111; sitename=迪威国际_13169231111; siteurl=http://gxlwdsslgy.com/; adminemail=66536084@qq.com; site_qq=66536084; icp=桂ICP备18009783号-1; closedreason=正在建设中; closedallowactivation=1; }; settingsubmit=提交; };
+<?PHP exit;?>	1590650490	6admin	1	14.204.158.184	setting	GET={operation=basic; }; POST={};
